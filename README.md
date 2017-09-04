@@ -8,7 +8,7 @@ Regarding 1)
 If I had more time, I would have possibly included a) fastest route distance estimates, and maybe b) weather/temperature data
 
 Regarding 2)
-I chose to use random forest regression because I was having some issues installing the xgboost python package. Rather than spending a few hours on troubleshooting the installation, I chose to just use random forest regression since the difference in performance does not seem to be too big (Source: http://fastml.com/what-is-better-gradient-boosted-trees-or-random-forest/). I also have no experience using xgboost so I wasn't sure how much time/work would be necessary in learning how to tune the hyper parameters.
+I chose to use random forest regression because I was having some issues installing the xgboost python package. Rather than spending a few hours on troubleshooting the installation, I chose to just use random forest regression since the difference in performance does not seem to be too big. I also did not have any experience using xgboost so I wasn't very sure how much time/work would be necessary in learning how to tune the hyper parameters.
 
 
 Before starting the assignment, I viewed existing kernals and saw how other experienced kagglers were structuring their model. I gained a lot of insight from other models so my approach is not very original. I took bits and pieces from various other kagglers and applied what I thought made sense, in addition to making changes where I felt was necessary. Also, I was able to view a lot of the data exploration processes different kagglers took, so it saved me a lot of time from exploring on my own. As a result, I've decided to exclude a lot of the exploratory data process from my ipynb.
