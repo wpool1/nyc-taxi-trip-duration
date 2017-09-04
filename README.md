@@ -17,40 +17,40 @@ Before starting the assignment, I viewed existing kernals and saw how other expe
 Below are the list of features used in my model.
 
 DATETIME
-- pickup_weekday,
-- pickup_hour,
-- pickup_weekday_hour,
+- pickup_weekday
+- pickup_hour
+- pickup_weekday_hour
 
 LOCATION
-- pickup_longitude,
-- pickup_latitude,
-- dropoff_longitude,
-- dropoff_latitude,
-- passthru_latitude,
-- passthru_longitude,
-- pickup_cluster,
-- dropoff_cluster,
+- pickup_longitude
+- pickup_latitude
+- dropoff_longitude
+- dropoff_latitude
+- passthru_latitude
+- passthru_longitude
+- pickup_cluster
+- dropoff_cluster
 
 DISTANCE
-- haversine_distance,
-- manhattan_distance,
+- haversine_distance
+- manhattan_distance
 
 AVG SPEED
-- avg_pickup_weekday_haversine_speed,
-- avg_pickup_weekday_manhattan_speed,
-- avg_pickup_hour_haversine_speed,
-- avg_pickup_hour_manhattan_speed,
-- avg_pickup_weekday_hour_haversine_speed,
-- avg_pickup_weekday_hour_manhattan_speed,
-- avg_pickup_cluster_haversine_speed,
-- avg_pickup_cluster_manhattan_speed,
-- avg_dropoff_cluster_haversine_speed,
-- avg_dropoff_cluster_manhattan_speed,
-- avg_pickup_cluster_pickup_hour_haversine_speed,
-- avg_pickup_cluster_pickup_hour_manhattan_speed,
-- avg_dropoff_cluster_pickup_hour_haversine_speed,
-- avg_dropoff_cluster_pickup_hour_manhattan_speed,
-- avg_pickup_cluster_dropoff_cluster_haversine_speed,
+- avg_pickup_weekday_haversine_speed
+- avg_pickup_weekday_manhattan_speed
+- avg_pickup_hour_haversine_speed
+- avg_pickup_hour_manhattan_speed
+- avg_pickup_weekday_hour_haversine_speed
+- avg_pickup_weekday_hour_manhattan_speed
+- avg_pickup_cluster_haversine_speed
+- avg_pickup_cluster_manhattan_speed
+- avg_dropoff_cluster_haversine_speed
+- avg_dropoff_cluster_manhattan_speed
+- avg_pickup_cluster_pickup_hour_haversine_speed
+- avg_pickup_cluster_pickup_hour_manhattan_speed
+- avg_dropoff_cluster_pickup_hour_haversine_speed
+- avg_dropoff_cluster_pickup_hour_manhattan_speed
+- avg_pickup_cluster_dropoff_cluster_haversine_speed
 - avg_pickup_cluster_dropoff_cluster_manhattan_speed
 
 OTHER
