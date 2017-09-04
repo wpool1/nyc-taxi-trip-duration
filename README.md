@@ -5,7 +5,7 @@ Due to time limitations in completing the assignment, I have chosen to
 2) use random forest regression instead of xgboost.
 
 Regarding 1)
-If I had more time, I would have possibly included a) fastest route distance estimates, and maybe b) weather/temperature data
+If I had more time to experiment, I would have liked to have included a) fastest route distance estimates, and maybe b) weather/temperature data
 
 Regarding 2)
 I chose to use random forest regression because I was having some issues installing the xgboost python package. Rather than spending a few hours on troubleshooting the installation, I chose to just use random forest regression since the difference in performance does not seem to be too big. I also did not have any experience using xgboost so I wasn't very sure how much time/work would be necessary in learning how to tune the hyper parameters.
